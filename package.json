@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      "grunt-dpdjs@^0.1.1",
+      "C:\\Users\\sendur-im1\\Documents\\Workspaces\\DeploydMarsCms"
+    ]
+  ],
+  "_from": "grunt-dpdjs@>=0.1.1 <0.2.0",
+  "_id": "grunt-dpdjs@0.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/grunt-dpdjs",
+  "_npmUser": {
+    "email": "tmp@kechol.net",
+    "name": "kechol"
+  },
+  "_npmVersion": "1.4.3",
+  "_phantomChildren": {
+    "async": "2.1.4",
+    "bluebird": "3.4.7",
+    "commander": "2.9.0",
+    "cookies": "0.6.2",
+    "corser": "2.0.1",
+    "debug": "2.6.0",
+    "doh": "0.0.4",
+    "ejs": "2.5.5",
+    "filed": "0.1.0",
+    "fs-extra": "0.30.0",
+    "mkdirp": "0.5.1",
+    "mongodb": "2.2.19",
+    "opener": "1.4.2",
+    "qs": "6.3.0",
+    "request": "2.74.0",
+    "scrubber": "0.0.0",
+    "semver": "5.3.0",
+    "send": "0.14.1",
+    "shelljs": "0.7.6",
+    "socket.io": "1.7.2",
+    "step": "0.0.6",
+    "underscore": "1.8.3",
+    "validation": "0.0.1"
+  },
+  "_requested": {
+    "name": "grunt-dpdjs",
+    "raw": "grunt-dpdjs@^0.1.1",
+    "rawSpec": "^0.1.1",
+    "scope": null,
+    "spec": ">=0.1.1 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/grunt-dpdjs/-/grunt-dpdjs-0.1.1.tgz",
+  "_shasum": "58bda79668c3d65a2f4ab9a8a10f37641ded7a6a",
+  "_shrinkwrap": null,
+  "_spec": "grunt-dpdjs@^0.1.1",
+  "_where": "C:\\Users\\sendur-im1\\Documents\\Workspaces\\DeploydMarsCms",
+  "author": {
+    "name": "Kazuyuki SUZUKI",
+    "url": "http://kechol.net/"
+  },
+  "bugs": {
+    "url": "https://github.com/Kechol/grunt-dpdjs/issues"
+  },
+  "dependencies": {
+    "deployd": ">= 0.7.0"
+  },
+  "description": "Generate local dpd.js file.",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-nodeunit": "^0.3.3"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "58bda79668c3d65a2f4ab9a8a10f37641ded7a6a",
+    "tarball": "https://registry.npmjs.org/grunt-dpdjs/-/grunt-dpdjs-0.1.1.tgz"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "homepage": "https://github.com/Kechol/grunt-dpdjs",
+  "keywords": [
+    "deployd",
+    "dpd",
+    "gruntplugin"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Kechol/grunt-dpdjs/blob/master/LICENSE"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "kechol",
+      "email": "tmp@kechol.net"
+    }
+  ],
+  "name": "grunt-dpdjs",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "grunt": ">= 0.4.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Kechol/grunt-dpdjs.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "0.1.1"
+}

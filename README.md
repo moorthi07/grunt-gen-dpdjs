@@ -1,6 +1,18 @@
+
+#Forked from
+"https://github.com/Kechol/grunt-dpdjs"
+
 # grunt-dpdjs
 
 This task generate local dpd.js file for deployd.
+
+Update:
+Manually generate dpdjs in Deployd Framework as a grunt task. Mostly useful for UI packaging and deployment
+
+Some deployd packages like 'dpd-fileupload' need the deployd server process to be passed as parameter to get env variables.
+This package is modified to start the deployd server.
+
+NOTE: While running 'Grunt' , this might through 'cannot connect to  database error', which can be ignored as dpdjs is created without any dependencies to the database.
 
 ## Getting Started
 This plugin requires Grunt `>= 0.4.0`

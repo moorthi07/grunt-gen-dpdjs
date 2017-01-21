@@ -23,7 +23,7 @@ module.exports = function(grunt) {
     var ClientLib = require('deployd/lib/resources/client-lib'),
         Config    = require('deployd/lib/config-loader');
 
-
+// Let the dployd server started - PV
 // ----------------------------------------------
 
 // require deployd
@@ -34,21 +34,22 @@ var port=2424;
 var server = deployd({
   port: process.env.PORT || port,
   env: process.env.ENV || 'development',
+  // If no connection string given, server still runs showing Database connction errors .
   // db: {
   //   connectionString: 'mongodb://localhost:27017/'
   // }
 });
-//  var server = deployd({});
+
 // start the server
 server.listen();
 
 // Deployd requires this
-// server.on('error', function(err) {
-//   console.error(err);
-//   process.nextTick(function() { // Give the server a chance to return an error
-//     process.exit();
-//   });
-// });
+server.on('error', function(err) {
+  console.error(err);
+  process.nextTick(function() { // Give the server a chance to return an error
+    process.exit();
+  });
+});
 // ----------------------------------------------
 
     var done = this.async();
